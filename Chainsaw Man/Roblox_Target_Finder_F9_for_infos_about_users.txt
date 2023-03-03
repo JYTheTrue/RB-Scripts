@@ -1,0 +1,8 @@
+    for i,v in pairs(game.Players:GetPlayers()) do
+    print(v.Character)
+    print("Diplay name is -",v.DisplayName)
+    print(v.Data.Cash.Value,"$")
+    print(v.Data.Level.Value)
+    print(v.Data.Hybrid.Value, "is mf's Hybrid")
+    print("---------------------------------------")
+    end
